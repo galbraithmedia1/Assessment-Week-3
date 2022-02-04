@@ -1,40 +1,3 @@
-body {
-  background: #ddd;
-  margin: 1rem;
-  padding: 1rem;
-  max-width: 500px;
-  margin: 2rem auto;
-  font-family: "Open Sans", sans-serif;
-}
-
-nav {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.205);
-}
-
-ol {
-  padding-left: 0;
-}
-
-.crumb {
-  margin-right: 2em;
-  display: inline;
-}
-
-a {
-  color: orange;
-}
-
-a:visited {
-  color: rgb(255, 255, 255);
-}
-
-input {
-  display: block;
-}
-
-.cat-img {
-  max-width: 300px;
-}
 * {
 }
 
@@ -161,19 +124,4 @@ body {
 }
 .left-div-elements {
   /* background-color: blue; */
-}
-.btn-flex {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-.yellow-Btn {
-  background: yellow;
-  padding: 20px 30px;
-  border-radius: 30px;
-  color: rgba(49, 49, 49, 0.876);
-  font-size: 16px;
-}
-.yellow-Btn :hover {
-  background-color: yellowgreen;
 }
