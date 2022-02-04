@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 body {
   background: #ddd;
   margin: 1rem;
@@ -25,7 +29,7 @@ a {
 }
 
 a:visited {
-  color: rgb(255, 255, 255);
+  color: rgb(168, 168, 168);
 }
 
 input {
@@ -34,8 +38,6 @@ input {
 
 .cat-img {
   max-width: 300px;
-}
-* {
 }
 
 body {
@@ -173,7 +175,14 @@ body {
   border-radius: 30px;
   color: rgba(49, 49, 49, 0.876);
   font-size: 16px;
+  margin-top: 50px;
 }
-.yellow-Btn :hover {
-  background-color: yellowgreen;
+.yellow-Btn:hover {
+  background-color: rgba(80, 80, 80, 0.178);
+  color: white;
+  transition: ease-in-out 0.5s;
+}
+
+p {
+  margin: 20px;
 }
