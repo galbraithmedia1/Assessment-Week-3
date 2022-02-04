@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Homepage</title>
-	<link href="styles.css" rel="stylesheet">
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+      </ol>
+    </nav>
 
-</head>
-<body>
-	<nav>
-		<ol>
-	        <li class="crumb"><a href="./home.html">Home</a></li>
-	        <li class="crumb"><a href="./profile.html">Profile</a></li>
-	        <li class="crumb"><a href="./about.html">About</a></li>
-	    </ol>
-	</nav>
+    <content>
+      <h1>Welcome to this little website.</h1>
+      <p>Hello World</p>
+      <p>Hello Everyone! Welcome to this cool cat website!!</p>
 
-	<content>
-		<h1>Welcome to this little website.</h1>
-		<!-- insert hello world here -->
+      <ul>
+        <li>You are so cool!</li>
+        <li>No one ever comes to this site so thank you!</li>
+        <li>I want to see your cat</li>
+      </ul>
 
-		<img src="https://pbs.twimg.com/profile_images/1267905793610772480/rks7KARB_400x400.jpg">
+      <img class="cat-img" onMouseOver="this.style.color='#0F0'"
+        src="https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3V0ZSUyMGNhdHxlbnwwfHwwfHw%3D&w=1000&q=80"
+      />
 
-		<h2>Contact Us</h2>
-		<form id="contact">
-			Your name:
-			<input type="text">
+      <h2>Contact Us</h2>
+      <form id="contact">
+        Your name:
+        <input type="text" />
 
-			Message:
-			<input type="textarea">
+        Message:
+        <input type="textarea" />
 
-			<input type="submit">
+        <input type="submit" />
+		
+		<p style="text-decoration: underline;" >How did you hear about us?</p>
+		<div style="display: flex;">
+			<input type="checkbox" id="label1" name="label1" value="Google" />
+			<label for="label1"> Google</label><br />
+			<input type="checkbox" id="label2" name="label2" value="Friend" />
+			<label for="label2"> A Friend</label><br />
+			<input type="checkbox" id="label3" name="label3" value="Other" />
+			<label for="label3">Other</label><br />
 
+		</div>
+       
+      </form>
+    </content>
 
-		</form>
-
-	</content>
-
-
-	<script src="about.js"></script>
-
-</body>
+    <script src="about.js"></script>
+  </body>
 </html>
